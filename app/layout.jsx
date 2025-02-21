@@ -8,8 +8,23 @@ const ptSans = PT_Sans({
 });
 
 export const metadata = {
-  title: "synk.digital",
-  description: "the service for you online bussiness needs",
+  title: "Synk Digital",
+  description: "The service provider for all your online bussiness needs. We cater a wide range of services from web development to AI solutions.",
+  openGraph: {
+    title: "Synk Digital",
+    description: "The service provider for all your online bussiness needs. We cater a wide range of services from web development to AI solutions.",
+    type: "website",
+    authors: ["Synk Digital"],
+    url: "https://synk.digital",
+    images: [
+      {
+        url: "https://synk.digital/synk2.png",
+        width:800,
+        height:600,
+        alt: "Synk Digital",
+      }
+    ]
+  }
 };
 
 export default function RootLayout({ children }) {
