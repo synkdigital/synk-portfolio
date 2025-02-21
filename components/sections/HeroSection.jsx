@@ -7,17 +7,17 @@ const HeroSection = () => {
         <img src="hero-img.png" alt="hero-bg-img" className="lg:absolute flex lg:w-[800px] w-[300px] h-auto left-[200px] top-[100px] z-0"></img>
       <div className="flex items-center justify-center lg:gap-20 gap-14 lg:mb-32 mb-20 z-10">
         <div className="flex flex-col items-end justify-end font-bold">
-            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>300</span>
+            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>28</span>
             <span className="lg:text-xl text-sm">SUCCESS</span>
             <span className="lg:text-xl text-sm">PROJECT</span>
         </div>
         <div className="flex flex-col items-end justify-end font-bold">
-            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>200</span>
+            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>7</span>
             <span className="lg:text-xl text-sm">PRODUCT</span>
             <span className="lg:text-xl text-sm">LAUNCHES</span>
         </div>
         <div className="flex flex-col items-end justify-end font-bold">
-            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>100</span>
+            <span className="lg:text-6xl text-2xl flex gap-0 items-start"><FaPlus className="text-lg text-purple-600"/>2</span>
             <span className="lg:text-xl text-sm">STARTUP</span>
             <span className="lg:text-xl text-sm">RAISED</span>
         </div>
