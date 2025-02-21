@@ -3,6 +3,7 @@ import "./globals.css";
 
 const ptSans = PT_Sans({
   variable: "--font-pt-sans",
+  subsets: ["latin"],
   weight: ['400', '700'],
 });
 
