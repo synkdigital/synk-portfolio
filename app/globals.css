@@ -21,6 +21,14 @@ body {
   --slide-spacing: 1rem;
   --slide-size: 100%;
 }
+
+/* make --slide-height 400px for lg devices  */
+@media (min-width: 412px) {
+  .embla {
+    --slide-height: 440px;
+  }
+}
+
 .embla__viewport {
   overflow: hidden;
 }

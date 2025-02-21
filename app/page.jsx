@@ -6,14 +6,14 @@ import Services from "@/components/sections/Services";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-start justify-start p-0 m-0">
+    <div className="flex flex-col items-start justify-start p-0 m-0 scroll-smooth">
       <Navbar/>
       <HeroSection/>
       <Services/>
-      {/* <div className="p-3 w-full bg-gray-300">
+      <div className="p-3 w-full bg-gray-300">
         <Projects/>
       </div>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Services = () => {
         }
     ]
   return (
-    <div className="flex items-start justify-start w-full h-fit p-4 bg-gray-300 gap-3 lg:flex-row flex-col">
+    <div className="flex items-start justify-start w-full h-fit p-4 bg-gray-300 gap-3 lg:flex-row flex-col" id="service">
         <div className="lg:h-[80vh] h-fit rounded-2xl bg-white text-black pt-4 pr-4 pl-4 lg:w-[50%] w-full flex flex-col items-end justify-start overflow-hidden">
             <h1 className="lg:text-7xl text-5xl font-bold uppercase text-right">explore our<br/>services</h1>
             <img src="ribbon.png" alt="ribbon" className="w-[500px] h-auto self-start overflow-hidden"/>

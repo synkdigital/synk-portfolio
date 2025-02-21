@@ -2,7 +2,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 import { FaPlus } from "react-icons/fa";
 const HeroSection = () => {
   return (
-    <div className="w-full lg:h-fit min-h-screen pt-28 flex flex-col items-end lg:justify-end justify-start px-10">
+    <div className="w-full lg:h-fit min-h-screen pt-28 flex flex-col items-end lg:justify-end justify-start px-10" id="about">
         <img src="hero-img.png" alt="hero-bg-img" className="lg:absolute flex lg:w-[800px] w-[300px] h-auto left-[200px] top-[100px] z-0"></img>
       <div className="flex items-center justify-center lg:gap-20 gap-14 lg:mb-32 mb-20 z-10">
         <div className="flex flex-col items-end justify-end font-bold">

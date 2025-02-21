@@ -29,11 +29,11 @@ const Carousel = (props) => {
         <div className="embla__container">
           {slides.map((_, index) => (
             <div className="embla__slide" key={index}>
-              <div className='flex items-center justify-center gap-10'>
+              <div className='flex items-center justify-center gap-10 lg:flex-row flex-col'>
                 <img src={_.imgurl} alt={_.title} className='w-[500px] lg:w-auto lg:h-[500px] h-auto'/>
-                <Link href={_.url} className='text-4xl font-bold uppercase bg-white text-black rounded-full h-48 w-48 flex items-center justify-center gap-2'>
+                <Link href={_.url} className='lg:text-4xl text-xl font-bold uppercase bg-white text-black rounded-full lg:h-48 lg:w-48 h-32 w-32 flex items-center justify-center gap-2'>
                   VISIT
-                  <LuArrowUpRight className="text-purple-600 text-5xl"/>
+                  <LuArrowUpRight className="text-purple-600 lg:text-5xl text-2xl"/>
                 </Link>
               </div>
             </div>
