@@ -23,7 +23,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="mb-5 z-10">
-        <Link href="#contactus" className="lg:text-4xl text-3xl font-thin gap-2 flex items-center">
+        <Link href="mailto:synkdigital0@gmail.com?subject=Enquiry for a Project" className="lg:text-4xl text-3xl font-thin gap-2 flex items-center">
             REACH OUT <LuArrowUpRight className="text-purple-600 lg:text-6xl text-4xl"/>
         </Link>
       </div>
