@@ -1,5 +1,6 @@
 import { LuArrowUpRight } from "react-icons/lu";
 import { FaPlus } from "react-icons/fa";
+import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="w-full lg:h-fit min-h-screen pt-28 flex flex-col items-end lg:justify-end justify-start px-10" id="about">
@@ -22,9 +23,9 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="mb-5 z-10">
-        <span className="lg:text-4xl text-3xl font-thin gap-2 flex items-center">
+        <Link href="#contactus" className="lg:text-4xl text-3xl font-thin gap-2 flex items-center">
             REACH OUT <LuArrowUpRight className="text-purple-600 lg:text-6xl text-4xl"/>
-        </span>
+        </Link>
       </div>
       <div className="flex flex-col items-end justify-end lg:text-9xl text-6xl font-semibold tracking-tight leading-none z-10">
         <span>LIMITLESS</span>
