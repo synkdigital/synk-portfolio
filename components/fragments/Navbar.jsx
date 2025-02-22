@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="lg:flex gap-20 font-bold hidden">
+      <div className="md:flex gap-12 font-bold hidden">
         <a href="#about" onClick={(e) => handleClick(e, "about")}>ABOUT</a>
         <a href="#service" onClick={(e) => handleClick(e, "service")}>SERVICE</a>
         <a href="#project" onClick={(e) => handleClick(e, "project")}>PROJECT</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
 
       {/* Contact Button (Desktop) */}
-      <div className="lg:flex hidden">
+      <div className="md:flex hidden">
         <a 
           href="#contactus" 
           onClick={(e) => handleClick(e, "contactus")}
@@ -60,7 +60,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Button */}
-      <div className="lg:hidden flex">
+      <div className="md:hidden flex">
         <button onClick={() => setMenuOpen(true)}>
           <SlMenu className="text-3xl" />
         </button>

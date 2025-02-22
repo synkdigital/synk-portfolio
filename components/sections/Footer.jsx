@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="p-4 bg-gray-300 w-full lg:h-[500px] h-[400px]" id="contactus">
         <div className="flex bg-white flex-col justify-between h-full p-4 rounded-2xl">
-            <h1 className="uppercasse self-end text-right lg:text-lg text-sm uppercase font-bold lg:w-[20%] w-full z-10">
+            <h1 className="uppercasse self-end text-right md:text-lg text-sm uppercase font-bold md:w-[40%] w-full z-10">
                 let&apos;s collaborate and create something extraordinary. contact us today to explore limitless solutions tailored to your vision.
             </h1>
             <img src="footer-img.png" alt="footerimg" className="lg:w-[350px] w-[250px] h-auto absolute z-0" />

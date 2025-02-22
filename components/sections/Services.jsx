@@ -24,16 +24,16 @@ const Services = () => {
         }
     ]
   return (
-    <div className="flex items-start justify-start w-full h-fit p-4 bg-gray-300 gap-3 lg:flex-row flex-col" id="service">
-        <div className="lg:h-[80vh] h-fit rounded-2xl bg-white text-black pt-4 pr-4 pl-4 lg:w-[50%] w-full flex flex-col items-end justify-start overflow-hidden">
-            <h1 className="lg:text-7xl text-5xl font-bold uppercase text-right">explore our<br/>services</h1>
+    <div className="flex items-start justify-start w-full h-fit p-4 bg-gray-300 gap-3 md:flex-row flex-col" id="service">
+        <div className="h-fit rounded-2xl bg-white text-black pt-4 pr-4 pl-4 md:w-[50%] w-full flex flex-col items-end justify-start overflow-hidden">
+            <h1 className="md:text-7xl text-5xl font-bold uppercase text-right">explore our<br/>services</h1>
             <img src="ribbon.png" alt="ribbon" className="w-[500px] h-auto self-start overflow-hidden"/>
         </div>
-        <div className="lg:w-[50%] w-full h-[80vh] flex flex-col items-start justify-between gap-3">
+        <div className="md:w-[50%] w-full h-[80vh] flex flex-col items-start justify-between gap-3">
             {domains.map((domain,index)=>(
                 <div className="h-full bg-white w-full p-4 rounded-2xl flex flex-col justify-between hover:bg-purple-600 hover:text-white transition-all duration-200 ease-in-out group" key={index}>
                     <h1 className="text-3xl font-bold uppercase self-start">{domain.title}</h1>
-                    <p className="self-end uppercase font-thin text-sm text-right lg:w-[50%] w-full flex items-center">
+                    <p className="self-end uppercase font-thin text-sm text-right md:w-[50%] w-full flex items-center">
                         {domain.desc}
                         <Link href={domain.url}>
                             <LuArrowUpRight className="text-purple-600 text-6xl group-hover:text-white"/>
