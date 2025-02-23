@@ -32,10 +32,10 @@ const Projects = () => {
 
     ]
   return (
-    <div className='w-full min-h-screen bg-black p-4 rounded-3xl flex-col items-start justify-start text-white' id='project'>
-      <h1 className='lg:text-9xl text-5xl font-semibold uppercase text-white lg:mb-0 mb-10'>discover the<br/>power<br/>of Infinite<br/>Development</h1>
+    <div className='w-full min-h-fit bg-black p-4 rounded-3xl flex-col items-start justify-start text-white' id='project'>
+      <h1 className='lg:text-9xl text-4xl font-semibold uppercase text-white lg:mb-0 mb-10'>discover the<br/>power<br/>of Infinite<br/>Development</h1>
       <div className='flex items-center justify-end w-full mb-10'>
-        <p className='text-right text-white text-sm font-thin uppercase w-[400px]'>
+        <p className='text-right text-white text-sm font-thin uppercase w-[400px] lg:flex hidden'>
             at our agency we believe in breaking boundaries and pushing the limits of creativity. our team of visionary designers and strategists is dedicated to transform your ideas into an extraordinary visual experience.
         </p>
       </div>

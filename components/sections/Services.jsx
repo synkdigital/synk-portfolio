@@ -36,7 +36,7 @@ const Services = () => {
                     <p className="self-end uppercase font-thin text-sm text-right md:w-[50%] w-full flex items-center">
                         {domain.desc}
                         <Link href={domain.url}>
-                            <LuArrowUpRight className="text-purple-600 text-6xl group-hover:text-white"/>
+                            <LuArrowUpRight className="text-purple-600 text-6xl group-hover:text-white hover:rotate-45 transition-all ease-in-out duration-200"/>
                         </Link>
                     </p>
                 </div>

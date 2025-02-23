@@ -42,20 +42,33 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <div className="md:flex gap-12 font-bold hidden">
-        <a href="#about" onClick={(e) => handleClick(e, "about")}>ABOUT</a>
-        <a href="#service" onClick={(e) => handleClick(e, "service")}>SERVICE</a>
-        <a href="#project" onClick={(e) => handleClick(e, "project")}>PROJECT</a>
-        <a href="#testimony" onClick={(e) => handleClick(e, "testimony")}>TESTIMONY</a>
+        <a href="#about" onClick={(e) => handleClick(e, "about")} className="flex flex-col group items-start justify-center">
+          ABOUT
+          <span className="h-1 w-0 bg-purple-600 group-hover:w-full transition-all ease-in-out duration-300"></span>
+        </a>
+        <a href="#service" onClick={(e) => handleClick(e, "service")} className="flex flex-col group items-start justify-center">
+          SERVICE
+          <span className="h-1 w-0 bg-purple-600 group-hover:w-full transition-all ease-in-out duration-300"></span>
+        </a>
+        <a href="#project" onClick={(e) => handleClick(e, "project")} className="flex flex-col group items-start justify-center">
+          PROJECT
+          <span className="h-1 w-0 bg-purple-600 group-hover:w-full transition-all ease-in-out duration-300"></span>
+        </a>
+        <a href="#testimony" onClick={(e) => handleClick(e, "testimony")} className="flex flex-col group items-start justify-center">
+          TESTIMONY
+          <span className="h-1 w-0 bg-purple-600 group-hover:w-full transition-all ease-in-out duration-300"></span>
+        </a>
       </div>
 
       {/* Contact Button (Desktop) */}
-      <div className="md:flex hidden">
+      <div className="md:flex hidden group">
         <a 
           href="#contactus" 
           onClick={(e) => handleClick(e, "contactus")}
-          className="bg-black px-6 py-2 text-lg font-bold rounded-full text-white"
+          className="text-lg font-bold rounded-full text-black uppercase w-32 flex h-[50px] items-center justify-center group-hover:text-white transition-all ease-in-out duration-700"
         >
-          Reach us.
+          <span className="z-20">Reach us.</span>
+          <span className="bg-purple-600 group-hover:w-32 group-hover:h-[50px] w-0 group-hover:rotate-180 rounded-full absolute z-10 transition-all ease-in-out duration-700"></span>
         </a>
       </div>
 
